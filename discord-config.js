@@ -11,19 +11,19 @@ const config = convict({
     infoCommand: {
         doc: 'The command which the bot will respond to with the site URL.',
         format: String,
-        default: '!d-zone'
+        default: '!link'
     },
     servers: [
         {
             id: {
                 doc: 'The Discord server ID you want to simulate.',
                 format: String,
-                default: '123456789'
+                default: '696056878555201596'
             },
             default: {
                 doc: 'Indicates whether clients connect to this server by default. One server should have this set to true.',
                 format: Boolean,
-                default: false
+                default: true
             },
             alias: {
                 doc: 'Optional, server selection box will show this instead of the actual server name.',
